@@ -71,18 +71,18 @@ button.normal{
     transition: 0.02s;
 }
 button.white{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     padding: 11px 18px;
     color: #fff;
     background: transparent;
     border-radius: 4px;
     cursor: pointer;
-    border: none;
+    border: 1px solid #fff;
     outline: none;
     transition: 0.02s;
 }
-
+ 
 body 
 {
     width: 100%;
@@ -340,7 +340,10 @@ body
     font-size: 14px;
     font-weight: 500;
     padding-bottom: 15px;
-
+}
+#banner1 .banner-box:hover button{
+    background-color: #088178;
+    border: 1px solid #088178;
 }
 
 
