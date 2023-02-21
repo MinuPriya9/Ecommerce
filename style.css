@@ -325,6 +325,10 @@ body
     background-position: center;
     padding: 30px;
 }
+#banner1 .banner-box2{
+    background-image: url(img/banner/b10.jpg);
+
+}
 #banner1 h4{
     color: #fff;
     font-size: 20px;
